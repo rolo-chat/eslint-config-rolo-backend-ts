@@ -22,9 +22,6 @@ workflows:
     jobs:
       - build-publish:
           context: global
-          requires:
-            - lint
-            - test
           filters:
             branches:
               ignore: /.*/
