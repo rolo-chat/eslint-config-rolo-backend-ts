@@ -1,0 +1,24 @@
+{
+  "name": "eslint-config-rolo-backend-ts",
+  "version": "1.0.0",
+  "description": "Typescript Eslint config for the backend teams working on Rolo.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolo-chat/eslint-config-rolo-backend-ts.git"
+  },
+  "author": "Rolo Innovation Inc.",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/rolo-chat/eslint-config-rolo-backend-ts/issues"
+  },
+  "homepage": "https://github.com/rolo-chat/eslint-config-rolo-backend-ts#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-import-resolver-typescript": "^2.5.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsdoc": "^37.5.1"
+  }
+}
