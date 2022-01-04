@@ -20,5 +20,9 @@
     "eslint-import-resolver-typescript": "^2.5.0",
     "eslint-plugin-import": "^2.25.4",
     "eslint-plugin-jsdoc": "^37.5.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint-plugin-prettier": "^4.0.0"
   }
 }
