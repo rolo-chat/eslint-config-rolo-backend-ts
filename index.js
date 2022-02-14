@@ -43,6 +43,9 @@ module.exports = {
     "@typescript-eslint/explicit-member-accessibility": "warn",
     "@typescript-eslint/member-ordering": "warn",
     "no-console": "error",
+    "no-param-reassign": "error",
+    "@typescript-eslint/explicit-function-return-type": "warn",
+    "no-return-await": "warn",
   },
   settings: {
     "import/resolver": {
