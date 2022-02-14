@@ -28,6 +28,7 @@ module.exports = {
           { context: "FunctionDeclaration", inlineCommentBlock: true },
           { context: "MethodDefinition", inlineCommentBlock: true },
           { context: "TSPropertySignature", inlineCommentBlock: true },
+          { context: "TSInterfaceDeclaration", inlineCommentBlock: true },
         ],
       },
     ],
@@ -46,6 +47,13 @@ module.exports = {
     "no-param-reassign": "error",
     "@typescript-eslint/explicit-function-return-type": "warn",
     "no-return-await": "warn",
+    "@typescript-eslint/no-confusing-void-expression": "warn",
+    "@typescript-eslint/prefer-includes": "warn",
+    "@typescript-eslint/prefer-literal-enum-member": "error",
+    "@typescript-eslint/prefer-nullish-coalescing": "warn",
+    "@typescript-eslint/prefer-optional-chain": "warn",
+    "@typescript-eslint/prefer-string-starts-ends-with": "warn",
+    "@typescript-eslint/switch-exhaustiveness-check": "warn",
   },
   settings: {
     "import/resolver": {
