@@ -54,6 +54,7 @@ module.exports = {
     "@typescript-eslint/prefer-optional-chain": "warn",
     "@typescript-eslint/prefer-string-starts-ends-with": "warn",
     "@typescript-eslint/switch-exhaustiveness-check": "warn",
+    "@typescript-eslint/array-type": ["warn", { default: "generic" }],
   },
   settings: {
     "import/resolver": {
