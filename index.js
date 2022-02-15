@@ -55,6 +55,7 @@ module.exports = {
     "@typescript-eslint/prefer-string-starts-ends-with": "warn",
     "@typescript-eslint/switch-exhaustiveness-check": "warn",
     "@typescript-eslint/array-type": ["warn", { default: "generic" }],
+    "@typescript-eslint/promise-function-async": ["warn"],
   },
   settings: {
     "import/resolver": {
